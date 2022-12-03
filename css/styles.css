@@ -1,0 +1,165 @@
+:root {
+    --hero-text: #FFFFFF;
+    --main-text-color: #2E2F42;
+    --text-color: #434455;
+    --accent-color: #4D5AE5;
+    --logo-past-text: #F4F4FD;
+    --footer-text: #E7E9FC;
+
+}
+
+body {
+    background-color: var(--hero-text);
+    color: var(--main-text-color);
+    font-family: Roboto, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.02em;
+
+}
+.list {
+    list-style: none;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+.logo-span {color: var(--accent-color)}
+
+ /* site-nav */
+
+.site-nav .link {
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.site-nav .link:active {
+    color: var(--text-color);
+}
+
+.site-nav .link:hover, .site-nav .link:focus {
+    color: var(--accent-color);
+} 
+
+/*auth-nav */
+
+.auth-nav .link {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+
+.auth-nav .link:active, .auth-nav .link:hover, .auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/*HERO*/
+.hero {
+    background: var(--main-text-color);
+}
+
+.hero .hero-titel {
+
+    color: var(--hero-text);
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 1.07;
+}
+.hero .button-hero {
+    color: var(--hero-text);
+    background: var(--accent-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    font-family: inherit;
+    letter-spacing: 0.04em;
+}
+
+.hero .button-hero:active, 
+.hero .button-hero:hover, 
+.hero .button-hero:focus {
+    background: #404BBF;
+    cursor: pointer;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/*main-page*/
+.team {
+    background: var(--logo-past-text);
+}
+
+.section .section-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+}
+
+.features .subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.features .text {
+    font-weight: 400;
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
+}
+/*button*/
+.nav-button {
+    color: var(--accent-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: inherit;
+    background: var(--logo-past-text);
+    letter-spacing: 0.04em;
+}
+
+.nav-button:hover,
+.nav-button:focus,
+.nav-button:active {
+    color: var(--hero-text);
+    background: var(--accent-color);
+}
+
+.nav-button {
+    cursor: pointer;
+}
+
+.footer {
+    background: var(--main-text-color);
+}
+
+.logo-past {color: var(--logo-past-text)}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--footer-text)
+}
