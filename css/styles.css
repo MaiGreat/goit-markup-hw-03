@@ -122,6 +122,8 @@ header .container {
 /*HERO*/
 .hero {
     background: var(--main-text-color);
+    padding: 192px 0;
+    text-align: center;
 }
 
 .hero .hero-titel {
@@ -132,6 +134,13 @@ header .container {
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
+
+.hero-tite{
+    display: flex;
+    padding: auto;
+
+}
+
 .hero .button-hero {
     color: var(--hero-text);
     background: var(--accent-color);
@@ -140,6 +149,13 @@ header .container {
     line-height: 1.18;
     font-family: inherit;
     letter-spacing: 0.04em;
+    border-radius: 4px;
+    display: flex;
+    padding: 16px 32px;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .hero .button-hero:active, 
@@ -148,6 +164,7 @@ header .container {
     background: #404BBF;
     cursor: pointer;
 }
+
 
 .visually-hidden {
     position: absolute;
