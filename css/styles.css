@@ -29,12 +29,19 @@ ul {
     padding-left: 0;
 }
 
-.list {
-    list-style: none;
-}
 
 header .container {
     display: flex;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.list {
+    list-style: none;
 }
 
 .container {
@@ -46,6 +53,19 @@ header .container {
 .container-nav {
     display: flex;
 }
+
+.section {
+    padding-bottom: 120px;
+    padding-top: 120px;
+    flex-wrap: wrap;
+}
+
+
+.features {
+    display: flex;
+    
+}
+
 
 
 
@@ -180,6 +200,8 @@ header .container {
 }
 
 /*main-page*/
+.about-us {
+    display: flex;
 .team {
     background: var(--logo-past-text);
 }
@@ -189,7 +211,10 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
+text-align: center;
 }
+
+
 
 .features .subtitle {
     font-weight: 700;
@@ -205,6 +230,19 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+
+.subtitle{
+    margin-bottom: 8px;
+}
+
+.section-title {
+    margin-bottom: 72px;
+}
+
+
+
+
 /*button*/
 .nav-button {
     color: var(--accent-color);
@@ -240,3 +278,6 @@ letter-spacing: 0.02em;
     color: var(--footer-text);
     letter-spacing: 0.02em;
 }
+
+
+
